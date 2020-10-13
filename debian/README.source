@@ -1,0 +1,5 @@
+This Python module (mypy_extensions) was previously part of the python3-mypy
+binary package from the mypy source package prior to v0.660 as it came from the
+same source tree.
+
+Now the trees have been split, so the packaging must as well.

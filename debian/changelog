@@ -1,0 +1,35 @@
+python-mypy-extensions (0.4.3-2) unstable; urgency=medium
+
+  [ Michael R. Crusoe ]
+  * Move source package to DPMT.
+
+  [ Ondřej Nový ]
+  * Use debhelper-compat instead of debian/compat.
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Michael R. Crusoe ]
+  * Standards-Version: 4.5.0 (routine-update)
+  * debhelper-compat 13 (routine-update)
+  * Add salsa-ci file (routine-update)
+  * Rules-Requires-Root: no (routine-update)
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+ -- Michael R. Crusoe <crusoe@debian.org>  Tue, 13 Oct 2020 20:11:12 +0200
+
+python-mypy-extensions (0.4.3-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update home page.
+  * Fix watch URL
+
+ -- Michael R. Crusoe <michael.crusoe@gmail.com>  Wed, 11 Dec 2019 09:31:09 +0100
+
+python-mypy-extensions (0.4.1-1) unstable; urgency=medium
+
+  * Initial release as standalone package. (Closes: #919570).
+
+ -- Michael R. Crusoe <michael.crusoe@gmail.com>  Thu, 17 Jan 2019 01:17:57 -0800

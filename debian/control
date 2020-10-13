@@ -1,0 +1,36 @@
+Source: python-mypy-extensions
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael R. Crusoe <crusoe@debian.org>
+Section: utils
+Testsuite: autopkgtest-pkg-python
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               flake8,
+               help2man,
+               python3-all,
+               python3-setuptools
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-mypy-extensions
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-mypy-extensions.git
+Homepage: https://github.com/python/mypy_extensions
+Rules-Requires-Root: no
+
+Package: python3-mypy-extensions
+Architecture: all
+Section: python
+Depends: ${misc:Depends},
+         ${python3:Depends},
+Breaks: python3-mypy (<< 0.660-1)
+Replaces: python3-mypy (<< 0.660-1)
+Description: Experimental type system extensions for mypy typechecker (Python 3)
+ Add type annotations to your Python programs, and use mypy to type check them.
+ Mypy is essentially a Python linter on steroids, and it can catch many
+ programming errors by analyzing your program, without actually having to run
+ it. Mypy has a powerful type system with features such as type inference,
+ gradual typing, generics and union types.
+ .
+ The "mypy_extensions" module defines experimental extensions to the
+ standard "typing" module that are supported by the mypy typechecker.
+ .
+ This package provides the modules for Python 3.
