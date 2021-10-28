@@ -1,3 +1,9 @@
+python-mypy-extensions (0.4.3-2pexip1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- Huw Jones <huw@pexip.com>  Thu, 28 Oct 2021 14:30:35 +0000
+
 python-mypy-extensions (0.4.3-2) unstable; urgency=medium
 
   [ Michael R. Crusoe ]
