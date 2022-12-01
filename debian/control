@@ -10,7 +10,7 @@ Build-Depends: debhelper-compat (= 13),
                help2man,
                python3-all,
                python3-setuptools
-Standards-Version: 4.5.0
+Standards-Version: 4.5.1
 Vcs-Browser: https://salsa.debian.org/python-team/packages/python-mypy-extensions
 Vcs-Git: https://salsa.debian.org/python-team/packages/python-mypy-extensions.git
 Homepage: https://github.com/python/mypy_extensions
@@ -21,8 +21,6 @@ Architecture: all
 Section: python
 Depends: ${misc:Depends},
          ${python3:Depends},
-Breaks: python3-mypy (<< 0.660-1)
-Replaces: python3-mypy (<< 0.660-1)
 Description: Experimental type system extensions for mypy typechecker (Python 3)
  Add type annotations to your Python programs, and use mypy to type check them.
  Mypy is essentially a Python linter on steroids, and it can catch many
