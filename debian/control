@@ -5,12 +5,12 @@ Section: utils
 Testsuite: autopkgtest-pkg-python
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
-               dh-python,
+               dh-sequence-python3,
                flake8,
                help2man,
                python3-all,
                python3-setuptools
-Standards-Version: 4.5.1
+Standards-Version: 4.6.2
 Vcs-Browser: https://salsa.debian.org/python-team/packages/python-mypy-extensions
 Vcs-Git: https://salsa.debian.org/python-team/packages/python-mypy-extensions.git
 Homepage: https://github.com/python/mypy_extensions
